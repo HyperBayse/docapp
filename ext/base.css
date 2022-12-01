@@ -31,14 +31,24 @@ footer  .doc_logo, .links, .b_properties, .b_services, footer .contact {float: l
 footer .links a, .b_properties a, .b_services a {display: block;}
 
 footer .contact p {
-    margin: 0.2rem 0;
+    margin: 0.4rem 0;
 }
 footer .contact{font-size: 0.8rem;}
 .contact .telephone {font-size: 1rem; font-weight: bolder;}
+.contact span {
+    position: relative; 
+    height: 0.7rem;
+    width: 1rem;
+    display: inline-block;
+    justify-content: center;
+}
 .contact img {
     width: 1rem;
-    height: auto;
-}.contact .tel {width: 1.5rem; height: auto;}
+    height: 1.3rem;
+    position: absolute;
+    top: 0; bottom: 0;
+    margin: auto 0;
+}
 
 
 footer #copy {
