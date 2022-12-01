@@ -1,0 +1,71 @@
+:root{
+    --blue: rgb(051 0129 248);
+    --l_blue: rgb(191 236 230);
+    --black: #000000;
+    --white: #ffffff;
+    --grey: #b3b3b3; 
+}
+
+
+/* About */
+.aboutUs {
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.aboutUs span {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    background-color: var(--black);
+    background-image: url("/docapp/stf/img/about_label.jpg");
+    background-size: cover;
+    height: fit-content;
+}
+
+.aboutUs span h4 {
+    text-align: justify;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: var(--white);
+    margin: 0 auto;
+    padding: 5rem 2rem 0.2rem 2rem;
+}
+.aboutUs p {
+    font-size: 1rem;
+    padding: 0.2rem 2rem;
+    line-height: 1.5rem;
+}
+
+.key_about {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2rem;
+    display: grid;
+    background-color: var(--t_blue);
+    grid-template-columns: auto;
+}.key_about div {
+    box-sizing: border-box;
+    display: grid;
+    background-color: var(--white);
+    box-shadow: 0 0 0.3rem var(--blue);
+    margin: 0.7rem;
+    padding: 0.5rem;
+}
+.key_about h4 {
+    width: 90%;
+    padding: 0 0.5rem;
+    text-align: justify;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: var(--blue);
+    margin: 0.2rem 0;
+}.key_about p, .key_about ul {
+    box-sizing: border-box;
+    height: auto;
+    width: 90%;
+    padding: 0 0.8rem;
+    margin: 0.2rem 0;
+}.coreValue li {list-style: inside;}

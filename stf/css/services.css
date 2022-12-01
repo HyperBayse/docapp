@@ -1,0 +1,97 @@
+:root{
+    --blue: rgb(051 0129 248);
+    --l_blue: rgb(191 236 230);
+    --black: #000000;
+    --white: #ffffff;
+    --grey: #b3b3b3; 
+}
+
+
+/* Services */
+.services_para {
+    text-align: justify;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: var(--blue);
+    margin: 1rem auto 0 auto;
+    padding-left: 1rem;  
+}
+.s_services {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 0.5rem 1rem;
+}.s_services div {
+    box-sizing: border-box;
+    background-image: url('/docapp/stf/img/service1.jpg');
+    background-size:contain;
+    font-size: 0.8rem;
+    word-wrap: break-word;
+    text-align:center;
+    height: 6rem;
+    width: 7rem;
+    background-color: var(--grey);
+    border-radius:1rem;
+    margin: 0.3rem 0.8rem;
+}.s_services div > p {
+    margin: 0;
+    padding: 0.05rem;
+}
+
+/* Services body section */
+.services_body {
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+}.services_body div {
+    clear: both;
+    box-sizing: border-box;
+    text-align:justify;
+    height: fit-content;
+    min-height: 8rem;
+    width: 80%;
+    background-color: var(--l_blue);
+    margin: 0.5rem auto;
+    padding-bottom: 0.1rem;
+    position: relative;
+}
+.services_body div img {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    min-height: 6rem;
+    background-color: var(--blue);
+}
+.services_body div p {
+    margin: 0.5rem 0;
+    padding: 0 1rem;
+}
+.services_body div p:nth-child(2) {
+    font-size: 1.2rem; 
+    color: var(--white);
+    font-weight: bolder; 
+    top: 1rem;
+    position: absolute;
+}
+
+.services_body a p {
+    box-sizing: border-box;
+    padding: 0.2rem 0.5rem; 
+    background-color: var(--orange); 
+    margin: 0;
+    display: inline;
+    border-radius: 1rem;
+    font-weight: lighter;
+}.services_body div a { 
+    box-sizing: border-box;
+    position: relative;
+    display:inline;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    color: var(--white);
+    font-weight: lighter;
+}

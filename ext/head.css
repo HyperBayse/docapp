@@ -1,0 +1,189 @@
+:root{
+    --blue: rgb(38, 125, 255);
+    --l_blue: rgba(211, 235, 255, 0.781);
+    --t_blue: rgba(206, 233, 255, 0.3);
+    --black: #000000;
+    --white: #ffffff;
+    --grey: #b1b1b1; 
+    --t_black: rgba(0, 0, 0, 0.664);
+    --orange: rgb(255, 153, 0);
+}
+* {box-sizing: border-box;}
+/* FOR SMARTPHONE & TABLET */
+/* width: 576px; */
+html {
+    box-sizing: border-box;
+    width: 576px;
+    margin: auto;
+    font-size: 1em;
+}
+body {
+    position: relative;
+    box-sizing: border-box;
+    font-size: 1em;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}a {text-decoration: none; color: var(--blue);}
+/* Header Navigation Links */
+#header {
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    padding: 0.5rem 1rem;
+    margin: 0 auto;
+    background-color: var(--white);
+    display: block;
+    color: var(--black);
+    box-shadow: 0 0.05rem 0.3rem var(--black);
+}#header .home{display: inline-block; padding: 0 1rem 0 0;}
+.home img {width: 4rem; height: auto; position: relative; margin: 0;}
+#header p {display: inline-block; padding: 0.4rem 0.4rem; margin: 0.2rem;}
+
+#menu{float: right; margin: 0;}
+.menu {
+    display: inline;
+    width: auto; 
+    height: 1.7rem; 
+    margin: 0; 
+    float: right; 
+    position: relative;
+    z-index: 2;
+}
+
+.menu_nav {
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 0.3rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    width: fit-content;
+    min-width: 40%;
+    background-color: var(--white);
+    z-index: 1;
+    right: 0;
+}
+
+.properties .sub_property, .services .sub_service {
+    margin: 0.2rem 0 0 0;
+    font-size: 0.9rem;
+    position: relative;
+    background-color: var(--l_blue);
+    display: none;
+}.sub_property a, .sub_service a {
+    display: block;
+    padding: 0.4rem 0;
+}
+
+.account {
+    position: relative;
+    margin-right: inherit;
+    display: grid;
+}.account .login{
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 0.3rem;
+    padding: 0.1rem 0;  
+}
+
+.arrow_down {width: 0.9rem; height: auto;}
+.arrow_down:hover{cursor:pointer;}
+
+/* @ 576 */
+@media (min-width: 576px){
+    
+}
+
+/* @ 768 */
+@media (min-width: 768px){
+    
+}
+
+
+
+/* FOR PC */
+/* @ 992px */
+@media (min-width: 992px){
+    html {
+        width: 992px;
+        margin: auto;
+        font-size: 1em;
+        box-sizing: border-box;
+    }
+    body {
+        box-sizing: border-box;
+        font-size: 1em;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }a {text-decoration: none; color: var(--blue);}
+    /* Header Navigation Links */
+    #header {
+        box-sizing: border-box;
+        width: 100%;
+        height: fit-content;
+        padding: 0.8rem 1rem;
+        margin: 0 auto;
+        background-color: var(--white);
+        display: block;
+        color: var(--black);
+        box-shadow: 0 0.05rem 0.3rem var(--black);
+    }#header .home{
+        display: inline-block; float: left;
+    }.home img {width: 3rem; height: auto; position: relative; margin: 0;}
+    #header p {display: inline-block; padding: 0.2rem 0.2rem; margin: 0.2rem;}
+    
+    #menu {    }
+
+    #menu img {width: 1.1rem; height: auto; margin: 0;}
+    .menu_nav {
+        position:relative;
+        display: inline;
+        margin: 0;
+        padding: 0.3rem;
+        padding-top: 0.5rem;
+        width: fit-content;
+        background-color: var(--white);
+    }.menu {
+        display: none;
+        position:relative;
+    }
+    
+    .properties .sub_property, .services .sub_service {
+        margin: 0.2rem 0 0 0;
+        position: absolute;
+        background-color: var(--l_blue);
+        display: none;
+    }.sub_property a, .sub_service a {
+        display: block;
+        padding: 0.4rem 0.7rem;
+    }
+    
+    .account {
+        float: right;
+        position: relative;
+        margin-right: inherit;
+        display: inline;
+    }.account .login{
+        background-color: var(--blue);
+        color: var(--white);
+        border-radius: 0.3rem;
+        padding: 0.1rem 0;  
+    }
+    
+    .arrow_down {width: 0.9rem; height: auto;}
+    .arrow_down:hover{cursor:pointer;}
+}
+
+/* @ 1200 */
+@media (min-width: 1200px){
+    
+}
+
+/* @ 1400 */
+@media (min-width: 1400px){
+    
+}

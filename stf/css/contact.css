@@ -1,0 +1,130 @@
+:root{
+    --blue: rgb(051 0129 248);
+    --l_blue: rgb(191 236 230);
+    --black: #000000;
+    --white: #ffffff;
+    --grey: #b3b3b3; 
+}
+
+
+/* Contact */
+.contacts {
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 0.5rem auto;
+    width: 100%;
+    height: fit-content;
+    background-color: var(--grey);
+    background-image: url("/docapp/stf/img/mission.jpg");
+}.contacts > h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: var(--blue);
+    margin: 0 auto;
+    padding: 0.3rem;  
+}
+.contacts .contact {
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 0 0.2rem 0;
+}.appointment >p, .message >p {margin: 0;}
+.contacts .appointment, .contacts .message{
+    background-color: var(--blue);
+    font-size: 1.5rem;
+    color: var(--white);
+    text-align: center;
+    margin: 0.5rem auto;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.4rem;
+}.appointment:hover, .message:hover {cursor: pointer;}
+
+
+/* Contact Form */
+.contact_box {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: var(--l_blue);
+    padding: 1rem 0;
+}
+.appointment_box, .message_box{
+    box-sizing: border-box;
+    background-color: var(--grey);
+    width: 95%;
+    height: fit-content;
+    padding: 1rem;
+    margin: 1rem auto;
+    box-shadow: 0 0 0.2rem var(--black);
+    display: none;
+}
+.appointment_box p:first-of-type, .message_box p:first-of-type {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight:bold;
+    text-transform: uppercase;
+    margin: 0.3rem auto 0.8rem auto;
+}
+.appointment_box div, .message_box div {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin: 0.5rem auto;
+    color: var(--blue);
+    font-size: 1rem;
+}
+
+.appointment_box input:not(input[type='submit']), .appointment_box select, .message_box input:not(input[type='submit']), .message_box select {
+    box-sizing: border-box;
+    width: 100%;
+    height: 2rem;
+    background-color: var(--white);
+    color: var(--blue);
+    margin: 0.5rem auto;
+    border-style: none;
+    border-radius: 0.1rem;
+    padding: 0.2rem 0.3rem;
+    font-size: 1rem;
+}
+
+.message_box .subject, .message_box .messages {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0.3rem auto;
+    color: var(--blue);
+    font-size: 1rem;
+} textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0.2rem auto;
+    padding: 0.4rem;
+    color: var(--blue);
+    font-size: 0.9rem;
+}
+
+/* Submit button */
+.submit_btn{text-align: center;}
+input[type="submit"] {
+    font-size: 1.2rem;
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: var(--blue);
+    color: var(--white);
+    margin: 0.5rem auto;
+    border-style: none;
+    border-radius: 0.2rem;
+    padding: 0.4rem 0.5rem;
+}
+
+/* Other Contacts */
+.other_contacts {
+    background-color: var(--l_blue);
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+}.other_contacts p {
+    display: inline-block;
+    margin: 0.2rem;
+}

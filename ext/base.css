@@ -1,0 +1,106 @@
+/* Footer */
+footer {
+    box-sizing: border-box;
+    width: 100%;
+    clear: both;
+    font-size: 0.6rem;
+    margin: 1.5rem 0 0 0;
+    background-color: var(--l_blue);
+    color: var(--black);
+}footer a{color: var(--black);}
+
+footer {
+}
+
+footer #base_links {
+    width: 100%;
+    display: grid;
+    margin: 0;
+    padding: 0.5rem 0.5rem 0.2rem 0;
+}#base_links .doc_logo img {
+    width: 2rem; 
+    height: auto;
+    background-color: var(--white);
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    margin: 0;
+}
+
+footer h4 {margin: 0 0 0.2rem 0; font-size: 1rem; color: var(--blue);}
+footer  .doc_logo, .links, .b_properties, .b_services, footer .contact {float: left; margin-left: 1rem; padding-bottom: 0.3rem; margin-bottom: 0.7rem;} 
+footer .links a, .b_properties a, .b_services a {display: block;}
+
+footer .contact p {
+    margin: 0.2rem 0;
+}
+footer .contact{font-size: 0.8rem;}
+.contact .telephone {font-size: 1rem; font-weight: bolder;}
+.contact img {
+    width: 1rem;
+    height: auto;
+}.contact .tel {width: 1.5rem; height: auto;}
+
+
+footer #copy {
+    clear: both;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: var(--black);
+    color: var(--white);
+    height: fit-content;
+}
+footer #copy p {padding: 0.7rem; margin: 0;}
+
+
+/* @ 576 */
+@media (min-width: 576px){
+    
+}
+
+/* @ 768 */
+@media (min-width: 768px){
+    
+}
+
+
+
+/* FOR PC */
+/* @ 992px */
+@media (min-width: 992px){
+    footer {
+    
+    }
+    
+    footer #base_links {
+        width: 100%;
+        display: block;
+        margin: 0;
+        padding: 0.5rem 0.5rem 0.2rem 0;
+    }#base_links .doc_logo img {
+        width: 2rem; 
+        height: auto;
+        background-color: var(--white);
+        padding: 0.3rem;
+        border-radius: 0.2rem;
+        margin: 0;
+    }
+    
+    footer h4 {margin: 0 0 0.2rem 0}
+    footer  .doc_logo, .links, .b_properties, .b_services, footer .contact {float: left; margin-left: 1rem; padding-bottom: 0.3rem;} 
+    footer .links a, .b_properties a, .b_services a {display: block;}
+
+    footer .contact {float: right; margin-left: 1rem; padding-bottom: 0.3rem; margin-right: 1rem;}
+    footer .contact p {
+        margin: 0.2rem 0;
+    }  
+}
+
+/* @ 1200 */
+@media (min-width: 1200px){
+    
+}
+
+/* @ 1400 */
+@media (min-width: 1400px){
+    
+}
