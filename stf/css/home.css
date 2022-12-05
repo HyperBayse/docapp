@@ -30,13 +30,12 @@
     position: absolute;
     font-size: 0.8rem;
     width: fit-content;
-    max-width: 60%;
-    padding: 2rem;
+    max-width: 70%;
+    padding: 1rem;
     display: grid;
-    grid-template-columns: auto;
-    margin-top: -50%;
+    margin-top: -53%;
 }.home_about div {
-    line-height: 1.2rem;
+    line-height: 1.1rem;
     box-sizing: border-box;
     display: none;
     background-color: var(--t_black);
@@ -60,46 +59,13 @@
     margin: 0.2rem 0;
 }.coreValue li {list-style: inside;}
 
-/* search bar */
-.property_search {
-    position: absolute;
-    display: block;
-    right: 0;
-    left: 0;
-    padding: 0.2rem 0;
+.home_search {
+    width: 70%;
     height: fit-content;
-    width: fit-content;
-    margin: 1rem auto;
-    margin-top: -10%;
-    background-color: var(--white);
-    border-radius: 1rem;
-    box-sizing: border-box;
-}.property_search input {
-    font-size: 0.8rem;
-    float: left;
     position: relative;
-    padding: 0.5rem 0.8rem;
-    height: 1.8rem;
-    width: 20rem;
-    background-color: var(--white);
-    border-radius:  1rem;
-    margin: 0;
-    color: var(--black);
-    border-style:none;
-    box-sizing: border-box;
-}
-.property_search img {
-    position: absolute;
-    height: 90%;
-    width: auto;
-    background-color: var(--black);
-    border-radius: 1rem;
-    margin: auto 0;
-    padding: 0.4rem;
-    right: 0.2rem;
-    top: 0;
-    bottom: 0;
-    box-sizing: border-box;
+    display: block;
+    margin: 1rem auto;
+    margin-top: -13%;
 }
 
 /* General heading rules */
@@ -114,7 +80,7 @@
 }
 
 /* New Listings */
-#new_listings{clear:both; width: 100%; margin: 0.5rem 0; padding: 1rem; box-sizing: border-box;}
+#new_listings{clear:both; width: 100%; margin: 2rem 0; padding: 1rem; box-sizing: border-box;}
 #new_listings .nl_head{
     float: left;
     text-align: justify;
@@ -126,7 +92,7 @@
 .nl_head p{
     font-weight: bolder;
     margin: 0;
-}.nl_head p:nth-of-type(2) {font-size: 0.8rem; margin: 0.3rem 0; color: var(--blue); font-weight:lighter;}
+}.nl_head p:nth-of-type(2) {font-size: 0.8rem; margin: 0.3rem 0; color: var(--blue); font-weight:normal;}
 
 .new_listings {
     clear: both;
@@ -147,10 +113,10 @@
     padding: 0.5rem;
     margin: 0.05rem 0.4rem;
     border-radius:0.5rem;
-    box-shadow: 0 0 0.1rem var(--blue);
+    box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
     font-size: 0.8rem;
     position: relative;
-}.new_list:hover {box-shadow: 0 0 0.3rem var(--blue);}
+}.new_list:hover {box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2);}
 .new_list * {margin: 0.1rem;}
 
 /* each list content */
@@ -207,12 +173,12 @@
     text-align: center;
     color: var(--white);
     margin: 1rem auto;
-    padding: 0.5rem 1rem 1rem 1rem;
+    padding: 3rem 1rem;
     width: 100%;
     height: fit-content;
     
 }.explore p {font-size: 2rem; font-weight: bolder; margin: 0.5rem auto;}
-.explore p:nth-child(2) {font-size: 0.85rem; margin-bottom: 1rem; font-weight: lighter;}
+.explore p:nth-child(2) {font-size: 0.85rem; margin-bottom: 1rem; font-weight: normal;}
 .explore a p {
     padding: 0.4rem 0.8rem; 
     background-color: var(--orange); 
@@ -221,7 +187,7 @@
     font-size: 0.8rem;
     display: inline;
     border-radius: 1rem;
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 /* Property market and Blog */
@@ -239,7 +205,6 @@
     height: fit-content;
     min-height: 10rem;
     width: 90%;
-    box-shadow: 0 0 0.1rem var(--blue);
 }.p_market > p {
     margin: 0;
     background-color: var(--blue);
@@ -255,10 +220,9 @@
     height: fit-content;
     min-height: 10rem;
     width: 90%;
-    box-shadow: 0 0 0.1rem var(--blue);
 }.blog > p {
     margin: 0;
-    background-color: var(--blue);
+    background-color: var(--black);
     color: var(--white);
     font-size: 1.4rem;
     font-weight: bolder;
@@ -272,7 +236,7 @@
     margin: 0.5rem auto;
     height: fit-content;
     min-height: 10rem;
-    width: 80%; padding: 0.5rem 1rem;
+    width: 90%; padding: 0.5rem 0.5rem;
     box-sizing: border-box;
 }.o_project {
     box-sizing: border-box;
@@ -298,17 +262,15 @@
     box-sizing: border-box;
     height: fit-content;
     width: 100%;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0;
     margin: 0 auto;
 }
 .we_doc{
     box-sizing: border-box;
     margin: 0 auto; 
-    background-color: var(--t_blue); 
-    width: 85%; 
+    width: 95%; 
     height: fit-content;
     padding: 0;
-    box-shadow: 0 0 0.3rem var(--blue);
 }
 .we_doc .image {
     box-sizing: border-box;
@@ -318,14 +280,13 @@
     
 }.we_doc img {width: 100%;}
 .we_doc .content {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     box-sizing: border-box;
     margin: 0.1rem auto;
     padding: 0.3rem 1rem;
     width: 100%;
     height: fit-content;
-    /* background-color: var(--white); */
-}
+}.we_doc p {margin: 0;}
 
 /* Partners */
 #partners {

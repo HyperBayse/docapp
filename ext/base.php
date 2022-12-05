@@ -42,7 +42,13 @@
             </div>
 
             <div id="copy">
-                <p>Dapo Okeowo and Co. 2017-2022</p>
+                <p>&copy; Dapo Okeowo and Co. 2022</p>
+                <div class="social_icon">
+                    <img src="/docapp/stf/img/mail.svg">
+                    <img src="/docapp/stf/img/tel.svg">
+                    <img src="/docapp/stf/img/twitter.svg">
+                    <img src="/docapp/stf/img/instagram.svg">
+                </div>
             </div>
      
         </footer>

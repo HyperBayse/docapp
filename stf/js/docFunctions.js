@@ -1,4 +1,4 @@
-function show_items(x, y="block"){
+function showToggle(x, y="block"){
     // Function to show/hide sub-items (toggle)
     if (x.style.display == y){
         x.style.display = "none";
@@ -44,5 +44,13 @@ function auto_change(array, time=7000, display1="block", display2="none"){
 
 }
 
+function eventDisplaySwitch(object1, object2, e1="focus", e2="focusout", d1="block", d2="none"){
+    // It checks the events on the second parameter object and switches it's display as parsed.
+    // The first object is the eventListener while the second object is the eventReceiver.
+    // 3rd and 4th parameters are the events while 5th and 6th parameters are display respectively.
+    object1.addEventListener(e1, ()=>{object2.style.display = d1})
+    object1.addEventListener(e2, ()=>{object2.style.display = d2})
+};
 
-export {show_items, hide_items, show_this, auto_change};
+
+export {showToggle, hide_items, show_this, auto_change, eventDisplaySwitch};

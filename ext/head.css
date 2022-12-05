@@ -1,80 +1,105 @@
 :root{
-    --blue: rgb(38, 125, 255);
+    --blue: rgb(49, 131, 255);
     --l_blue: rgba(211, 235, 255, 0.781);
-    --t_blue: rgba(206, 233, 255, 0.3);
+    --t_blue: rgba(184, 223, 255, 0.247);
     --black: #000000;
     --white: #ffffff;
     --grey: #b1b1b1; 
     --t_black: rgba(0, 0, 0, 0.664);
     --orange: rgb(255, 153, 0);
+    --transparent: rgba(255, 153, 0, 0);
 }
 * {box-sizing: border-box;}
+
 /* FOR SMARTPHONE & TABLET */
 /* width: 576px; */
 html {
     box-sizing: border-box;
     width: 576px;
     margin: auto;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 body {
     position: relative;
     box-sizing: border-box;
-    font-size: 1em;
     width: 100%;
     padding: 0;
     margin: 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }a {text-decoration: none; color: var(--blue);}
+
 /* Header Navigation Links */
 #header {
     box-sizing: border-box;
     width: 100%;
     height: fit-content;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem; padding-bottom: 0.2rem;
     margin: 0 auto;
     background-color: var(--white);
     display: block;
     color: var(--black);
     box-shadow: 0 0.05rem 0.3rem var(--black);
 }#header .home{display: inline-block; padding: 0 1rem 0 0;}
-.home img {width: 4rem; height: auto; position: relative; margin: 0;}
-#header p {display: inline-block; padding: 0.4rem 0.4rem; margin: 0.2rem;}
+.home img {width: 4.5rem; height: auto; position: relative; margin: 0;}
+#header > p {display: inline-block; padding: 0.1rem 0.4rem; margin: 0.2rem;}
 
 #menu{float: right; margin: 0;}
 .menu {
     display: inline;
     width: auto; 
-    height: 1.7rem; 
-    margin: 0; 
+    height: 1.4rem; 
+    margin: 0;  margin-top: 0.4rem;
     float: right; 
     position: relative;
-    z-index: 2;
+    z-index: 4;
 }
-
 .menu_nav {
+    font-size: 1rem;
+    font-weight: 450;
     position: absolute;
     display: none;
     margin: 0;
-    padding: 0.3rem;
-    padding-left: 0.5rem;
-    padding-top: 0.5rem;
+    padding: 0.5rem;
+    padding-left: 0.7rem;
+    padding-top: 1rem;
     width: fit-content;
-    min-width: 40%;
+    min-width: 50%;
+    height: fit-content;
     background-color: var(--white);
-    z-index: 1;
+    z-index: 3;
     right: 0;
+}.menu_nav_b {
+    font-size: 1rem;
+    font-weight: 450;
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 0.5rem;
+    padding-left: 0.7rem;
+    padding-top: 1rem;
+    width: fit-content;
+    min-width: 50%;
+    height: 30rem;
+    background-color: var(--white);
+    z-index: 3;
+    right: 0;
+}
+.menu_nav p {
+    clear: both;
+    margin: 0.8rem 0.3rem; 
+    display: block;
+    height: fit-content;
 }
 
 .properties .sub_property, .services .sub_service {
-    margin: 0.2rem 0 0 0;
+    margin: 0.3rem 0 0 0;
     font-size: 0.9rem;
     position: relative;
-    background-color: var(--l_blue);
     display: none;
 }.sub_property a, .sub_service a {
     display: block;
-    padding: 0.4rem 0;
+    padding: 0.6rem 0;
+    color: var(--black);
 }
 
 .account {
@@ -88,7 +113,7 @@ body {
     padding: 0.1rem 0;  
 }
 
-.arrow_down {width: 0.9rem; height: auto;}
+.arrow_down {width: 0.9rem; height: auto; margin:0; margin-left: 0.2rem;}
 .arrow_down:hover{cursor:pointer;}
 
 /* @ 576 */
@@ -155,7 +180,8 @@ body {
     .properties .sub_property, .services .sub_service {
         margin: 0.2rem 0 0 0;
         position: absolute;
-        background-color: var(--l_blue);
+        color: var(--black);
+        background-color: var(--white);
         display: none;
     }.sub_property a, .sub_service a {
         display: block;

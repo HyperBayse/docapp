@@ -39,10 +39,8 @@
                 </div>
             </div>
             
-            <span class="property_search">
-                <input onfocus="this.style.outline = 'none'" type="text" placeholder="search for properties">
-                <img src="stf/img/searchIcon.svg" alt="search icon">
-            </span>
+        <div class="home_search"><?php include 'ext/search.php';?></div>
+            
         </div>
     
         <!-- Box containing most recent added properties -->
@@ -164,6 +162,8 @@
             </div>
             
         </div>
+        
+        <hr>
 
         <!-- Ongoing project -->
         <div id="project">
@@ -199,7 +199,7 @@
             </div>
         </div>
 
-        
+        <hr>
         <!-- Partners -->
         <div id="partners">
             <p>Our Partners</p>

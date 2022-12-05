@@ -4,65 +4,136 @@
         <meta charset="utf-8">
         <meta name="viewport" content='width=device-width' initial-scale=1.0>
         <title>properties</title>
-        <link rel="stylesheet" href="/docapp/stf/css/properties.css">
+        <link rel="stylesheet" href="../stf/css/properties.css">
     </head>
     <body>
-    <?php include '/xampp/htdocs/docapp/ext/head.php';?>
+    <?php include '../ext/head.php';?>
     
         <!-- Properties Page -->
         <div id="properties">
             <p>Properties</p>
-        
-        <section id="filter">
-            <img class="filter_icon" src="/docapp/stf/img/filter.svg" alt="fi">
-            <div clas="filter_box">
-                <p>Filter Search</p>
-                <div class="filter">
-                    <label for="state">State:</label>
-                    <select id="state">
-                        <option value="" >__select state__</option>
-                        <option value="lagos">Lagos</option>
-                        <option value="oyo">Oyo</option>
-                        <option value="abuja">Abuja</option>
-                        <option value="ogun">Ogun</option>
-                        <option value="kwara">Kwara</option>
-                        <option value="osun">Osun</option>
-                    </select>
 
-                    <p><label for="state">Sort by:</label></p>
-
-                </div>
+        <div id="search">
+            <?php include '../ext/search.php';?>
+        </div>  
+            
+        <div class="properties">
+            <div class="l_property">
+                <img src="../properties/prop/lpce1.jpeg" alt="List Image">
+                <p class="descr">Newly Built 5 Bedroom Detached House</p>
+                <p class="tag">For Sale</p>
+                <p class="price">#90,000,000</p>
+                <p class="info infos">
+                    <ul>
+                        <li>xNo Bedroom</li>
+                        <li>xNo Bath</li>
+                        <li>xNo Land Size</li>
+                        <li>Others: </li>
+                        <li>Address: </li>
+                    </ul>
+                </p>
+                <input type="button" value="View Details">
             </div>
-        </section>
+
+            <div class="l_property">
+                <img src="../properties/prop/bgel4.jpeg" alt="List Image">
+                <p class="descr">Bridgegate Estate Lekki, Nigeria</p>
+                <p class="tag">For Sale</p>
+                <p class="price">#55,000,000</p>
+                <p class="info infos">
+                    <ul>
+                        <li>xNo Bedroom</li>
+                        <li>xNo Bath</li>
+                        <li>xNo Land Size</li>
+                        <li>Others: </li>
+                        <li>Address: </li>
+                    </ul>
+                </p>
+                <input type="button" value="View Details">
+            </div>
+
+            <div class="l_property">
+                <img src="../properties/prop/shan2.jpeg" alt="List Image">
+                <p class="descr">Shangisha Fully Ensuite House</p>
+                <p class="tag">For Rent</p>
+                <p class="price">#2,000,000</p>
+                <p class="info infos">
+                    <ul>
+                        <li>xNo Bedroom</li>
+                        <li>xNo Bath</li>
+                        <li>xNo Land Size</li>
+                        <li>Others: </li>
+                        <li>Address: </li>
+                    </ul>
+                </p>
+                <input type="button" value="View Details">
+            </div>
+
+            <div class="l_property">
+                <img src="../properties/prop/wlie1.jpeg" alt="List Image">
+                <p class="descr">Westlink Iconic Estate</p>
+                <p class="tag">For Sale
+                </p>
+                <p class="price">#25,000,000</p>
+                <p class="info infos">
+                    <ul>
+                        <li>xNo Bedroom</li>
+                        <li>xNo Bath</li>
+                        <li>xNo Land Size</li>
+                        <li>Others: </li>
+                        <li>Address: </li>
+                    </ul>
+                </p>
+                <input type="button" value="View Details">
+            </div>
+
+            <div class="l_property">
+                <img src="../properties/prop/abl1.jpeg" alt="List Image">
+                <p class="descr">Land</p>
+                <p class="tag">For Sale
+                </p>
+                <p class="price">#85,000,000</p>
+                <p class="info infos">
+                    <ul>
+                        <li>xNo Bedroom</li>
+                        <li>xNo Bath</li>
+                        <li>xNo Land Size</li>
+                        <li>Others: </li>
+                        <li>Address: </li>
+                    </ul>
+                </p>
+                <input type="button" value="View Details">
+            </div>
             
-            
-            <div class="properties">
-                <div class="l_property">
-                    <p>Descriptive Name</p>
-                    <img alt="Property Image">
-                    <p>Detailed Information</p>
-                </div>
-                <div class="l_property">
-                    <p>Descriptive Name</p>
-                    <img alt="Property Image">
-                    <p>Detailed Information</p>
-                </div>
-                <div class="l_property">
-                    <p>Descriptive Name</p>
-                    <img alt="Property Image">
-                    <p>Detailed Information</p>
-                </div>
-                <div class="l_property">
-                    <p>Descriptive Name</p>
-                    <img alt="Property Image">
-                    <p>Detailed Information</p>
-                </div>
+        </div>
+    
+        <div class="properties">
+            <div class="l_property">
+                <p>Descriptive Name</p>
+                <img alt="Property Image">
+                <p>Detailed Information</p>
+            </div>
+            <div class="l_property">
+                <p>Descriptive Name</p>
+                <img alt="Property Image">
+                <p>Detailed Information</p>
+            </div>
+            <div class="l_property">
+                <p>Descriptive Name</p>
+                <img alt="Property Image">
+                <p>Detailed Information</p>
+            </div>
+            <div class="l_property">
+                <p>Descriptive Name</p>
+                <img alt="Property Image">
+                <p>Detailed Information</p>
             </div>
         </div>
+    </div>
 
-        <!-- Footer base information -->
+    <!-- Footer base information -->
 
-<?php include '/xampp/htdocs/docapp/ext/base.php';?>
+<?php include '../ext/base.php';?>
     </body>
     
 </html>

@@ -11,7 +11,7 @@
     <?php include '/xampp/htdocs/docapp/ext/head.php';?>
         <!-- Contact Page -->
         <div class="contacts">
-          <h4>Contact</h4>
+          <h4>CONTACT</h4>
           <div class="contact">
             <div class="appointment">
               <p>Book an Appointment</p>
@@ -59,6 +59,7 @@
               <div class="tag">
                 <label for="time">Choose Time:</label>
                   <select id="time"><br>
+                    <option value=""></option>
                     <option value="9">9</option>
                     <option value="10">10</option>
                     <option value="11">11</option>
@@ -124,14 +125,16 @@
             </form>
           </div>
       </div>
+      
 
+      <br><br>
       <!-- Other Contacts-->
       <div class="other_contacts">
-        <p>E-mail: info@dapookeowoandco.com</p>
-        <p><img src="" style="width:auto; height: 1rem"> 08081904865, 090100084002</p>
-        <p>Twitter</p>
-        <p>Instagram</p>
-        <p>Linkdin</p>
+        <h5>CLICK FOR QUICK ACTION</h5>
+        <p><img src="../stf/img/mail.svg">info@dapookeowoandco.com</p><br>
+        <p><img src="../stf/img/tel.svg">08081904865, 090100084002</p><br>
+        <p><img src="../stf/img/twitter.svg">dapookeowoandco</p><br>
+        <p><img src="../stf/img/instagram.svg">@dapookeowoandco</p>
       </div>
 
 

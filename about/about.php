@@ -27,11 +27,11 @@
               <strong>“Estate Surveying and Valuation”</strong> as evidenced by virtue of the
               Certificate of Registration of Business Name No. <strong>BN 2983056</strong> issued by the
               Corporate Affairs Commission (CAC).</p>
-            <p>The company is also registered by Special Control Unit Against Money
-              Laundering <strong>(SCUML)</strong> as evidenced by virtue of certificate no <strrong>SC250900483</strrong>
-              printed on 6th August 2020.</p>
-            <p>We hereby wish to provide you with our range of professional services.</p>
+            <p>The company is also registered by Special Control Unit Against Money <strong>(SCUML)</strong>.</p>
         </div>
+<br>
+    <hr>
+
   <div class="key_about">
     <div class="coreValue">
       <h4>Our Core Value</h4>
@@ -54,7 +54,24 @@
     </div>
   </div>
 
-        <!-- Footer base information -->
-<?php include '/xampp/htdocs/docapp/ext/base.php';?>
-    </body>
+  <div id="personel">
+    <div>
+      <img src="../stf/img/ceo.png">
+      <h4>ESV Dapo Okeowo</h4>
+      <h3>CEO/MD</h3>
+      <p>Dapo is the Principal Partner and the Chief Executive Officer. He was elected in 2004 as an Associate of the Nigerian Institution of Estate Surveyors and Valuers (ANIVS). He is also a registered member of the Estate Surveyors and Valuers Registration Board of Nigeria (ESVARBON). He graduated from the Polytechnic Ibadan in 1994 where he obtained a Higher National Diploma in Estate Management.</p>
+      <p>Dapo has over 20 years' experience in the field of Estate Surveying and Valuation and has worked in various Real Estate Company in Nigeria including Bimbola Onisabi & Co, Jide Taiwo and Company and Kunle Oshodi & Company where he rose to the post of an Associate Partner before he left. His experience in these companies cuts across Assets Valuation, Property Management and Real Estate brokerage.</p>
+      <p>He also has Housing management Experience in the public and private sector in the United Kingdom, having worked as a Housing Consultant for various local Authorities and Housing Associations.</p>
+      <p>Dapo is also the Director of Sales for Chapter Four Estate Management Limited and Iconic City UK, a company that specializes in property Development, Housing Consultancy, Estate Management and Project Financing.</p>
+    </div>
+
+    <div>
+      <img src="../stf/img/surveyor.png">
+      <h4>PHEMMY ADEJARE</h4>
+      <h3>Estate Surveyor</h3>
+      <p>Phemmy is an Estate Surveyor who holds a Higher National Diploma in Estate Management and Valuation from the Lagos State Polytechnic, Ikorodu, Lagos State with an impressive wealth of experience in the general practice of Estate Surveying and Valuation. He worked with Jide Taiwo and Company between 2018-2020 before joining in 2021. Phemmy has superior property market knowledge which has resulted in verifiable successes in property letting, Assets Valuation and Property management.</p>
+  </div>
+  <!-- Footer base information -->
+  <?php include '../ext/base.php';?>
+  </body>
 </html>

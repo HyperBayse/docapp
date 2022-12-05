@@ -8,23 +8,35 @@
 
 
 /* Services */
-.services_para {
-    text-align: justify;
-    font-size: 1.3rem;
-    font-weight: bolder;
-    color: var(--blue);
-    margin: 1rem auto 0 auto;
-    padding-left: 1rem;  
-}
-.s_services {
+.services_head {
     box-sizing: border-box;
+    font-size: 1rem;
+    background-image: url('/docapp/stf/img/service2.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-blend-mode:color;
+    background-color: var(--t_black);
+    text-align: center;
+    color: var(--white);
+    margin: 1rem auto;
+    padding: 2rem 1rem;
+    width: 100%;
+    height: fit-content;
+    
+}.services_head p {font-size: 2rem; font-weight: bolder; margin: 0.5rem auto;}
+.services_head p:nth-child(2) {font-size: 0.85rem; margin-bottom: 1rem; font-weight: normal;}
+
+/* .s_services {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
     padding: 0.5rem 1rem;
 }.s_services div {
     box-sizing: border-box;
-    background-image: url('/docapp/stf/img/service1.jpg');
+    background-image: url('/docapp/stf/img/service2.jpg');
     background-size:contain;
     font-size: 0.8rem;
     word-wrap: break-word;
@@ -37,7 +49,7 @@
 }.s_services div > p {
     margin: 0;
     padding: 0.05rem;
-}
+} */
 
 /* Services body section */
 .services_body {
@@ -49,13 +61,14 @@
 }.services_body div {
     clear: both;
     box-sizing: border-box;
-    text-align:justify;
+    text-align:left;
     height: fit-content;
     min-height: 8rem;
-    width: 80%;
-    background-color: var(--l_blue);
-    margin: 0.5rem auto;
-    padding-bottom: 0.1rem;
+    width: 90%;
+    box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+    margin: 2rem auto;
+    height: fit-content;
+    padding-bottom: 0.5rem;
     position: relative;
 }
 .services_body div img {
@@ -63,12 +76,13 @@
     box-sizing: border-box;
     width: 100%;
     height: auto;
-    min-height: 6rem;
-    background-color: var(--blue);
+    min-height: 10rem;
+    background-color: var(--t_black);
 }
 .services_body div p {
     margin: 0.5rem 0;
     padding: 0 1rem;
+    font-size: 0.9rem;
 }
 .services_body div p:nth-child(2) {
     font-size: 1.2rem; 
@@ -85,13 +99,13 @@
     margin: 0;
     display: inline;
     border-radius: 1rem;
-    font-weight: lighter;
+    font-weight: normal;
 }.services_body div a { 
     box-sizing: border-box;
     position: relative;
     display:inline;
-    margin: 0 auto;
-    font-size: 0.8rem;
+    margin-bottom: 0.5rem; margin-right: 0.5rem;
+    font-size: 0.9rem;
     color: var(--white);
-    font-weight: lighter;
+    float: right;
 }
