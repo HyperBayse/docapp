@@ -10,7 +10,6 @@
 /* Homepage image slide */
 #image_slides {
     clear: both;
-    box-sizing: border-box;
     width: 100%;
     height: fit-content;
     margin: 0 auto;
@@ -26,7 +25,6 @@
 
 /* image top lookout */
 .home_about {
-    box-sizing: border-box;
     position: absolute;
     font-size: 0.8rem;
     width: fit-content;
@@ -36,7 +34,6 @@
     margin-top: -53%;
 }.home_about div {
     line-height: 1.1rem;
-    box-sizing: border-box;
     display: none;
     background-color: var(--t_black);
     margin: 0.7rem;
@@ -53,7 +50,6 @@
     color: var(--orange);
     margin: 0.2rem 0;
 }.home_about p, .home_about ul {
-    box-sizing: border-box;
     height: auto;
     padding: 0 0.8rem;
     margin: 0.2rem 0;
@@ -92,11 +88,10 @@
 .nl_head p{
     font-weight: bolder;
     margin: 0;
-}.nl_head p:nth-of-type(2) {font-size: 0.8rem; margin: 0.3rem 0; color: var(--blue); font-weight:normal;}
+}.nl_head p:nth-of-type(2) {font-size: 1rem; margin: 0.3rem 0; color: var(--blue); font-weight:normal;}
 
 .new_listings {
     clear: both;
-    box-sizing: border-box;
     margin: 0; padding: 0 0.3rem;
     display: flex;
     overflow-x: auto;
@@ -163,7 +158,6 @@
 
 /* Explore more */
 .explore {
-    box-sizing: border-box;
     font-size: 1rem;
     background-image: url("/docapp/stf/img/explore.jpg");
     background-size:cover;
@@ -184,7 +178,7 @@
     background-color: var(--orange); 
     color: var(--white); 
     margin: 0;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     display: inline;
     border-radius: 1rem;
     font-weight: normal;
@@ -192,7 +186,6 @@
 
 /* Property market and Blog */
 #property_market {
-    box-sizing: border-box;
     margin: 0.5rem auto;
     padding: 0.5rem 0;
     height:fit-content;
@@ -200,10 +193,12 @@
     min-width: 100%;
 }.p_market {
     text-align: center;
-    margin: 1rem auto;
+    margin: 1rem auto; margin-bottom: 2rem;
     background-color: var(--white);
     height: fit-content;
     min-height: 10rem;
+    max-height: 18rem;
+    overflow: auto;
     width: 90%;
 }.p_market > p {
     margin: 0;
@@ -215,10 +210,12 @@
 }
 .blog {
     text-align: center;
-    margin: 1rem auto;
+    margin: 2rem auto;
     background-color: var(--white);
     height: fit-content;
     min-height: 10rem;
+    max-height: 18rem;
+    overflow: auto;
     width: 90%;
 }.blog > p {
     margin: 0;
@@ -237,16 +234,14 @@
     height: fit-content;
     min-height: 10rem;
     width: 90%; padding: 0.5rem 0.5rem;
-    box-sizing: border-box;
 }.o_project {
-    box-sizing: border-box;
+
     margin: 0 auto;
     background-color: var(--t_blue);
     width: 100%;
     height: fit-content;
     min-height: 10rem;
 }.o_project video{
-    box-sizing: border-box;
     width: 100%;
     height: auto;
 }.op_detail{
@@ -259,21 +254,19 @@
 
 /* About Us */
 #we_doc {
-    box-sizing: border-box;
+
     height: fit-content;
     width: 100%;
     padding: 0.5rem 0;
     margin: 0 auto;
 }
 .we_doc{
-    box-sizing: border-box;
     margin: 0 auto; 
     width: 95%; 
     height: fit-content;
     padding: 0;
 }
 .we_doc .image {
-    box-sizing: border-box;
     margin: 0.2rem auto;
     width: 100%;
     height: fit-content;
@@ -281,7 +274,6 @@
 }.we_doc img {width: 100%;}
 .we_doc .content {
     font-size: 0.9rem;
-    box-sizing: border-box;
     margin: 0.1rem auto;
     padding: 0.3rem 1rem;
     width: 100%;
@@ -305,4 +297,33 @@
     width: 2.5rem;
     background-color: var(--white);
     border-radius: 0.2rem;
+}
+
+
+/* @ 500 */
+@media (min-width: 500px){
+    
+}
+
+/* @ 768 */
+@media (min-width: 768px){
+    
+}
+
+
+
+/* FOR PC */
+/* @ 990px */
+@media (min-width: 990px){
+    
+}
+
+/* @ 1200 */
+@media (min-width: 1200px){
+    
+}
+
+/* @ 1400 */
+@media (min-width: 1400px){
+    
 }

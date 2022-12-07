@@ -52,5 +52,12 @@ function eventDisplaySwitch(object1, object2, e1="focus", e2="focusout", d1="blo
     object1.addEventListener(e2, ()=>{object2.style.display = d2})
 };
 
+function changeAttribute(element, att="", value1="", value2=""){
+    // It toggles the value of the selected attribute
+    if (element.getAttribute(att) == value1){
+        element.setAttribute(att, value2)
+    }else{element.setAttribute(att, value1)}
+}
 
-export {showToggle, hide_items, show_this, auto_change, eventDisplaySwitch};
+
+export {showToggle, hide_items, show_this, auto_change, eventDisplaySwitch, changeAttribute};

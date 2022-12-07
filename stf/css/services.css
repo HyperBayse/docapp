@@ -9,7 +9,6 @@
 
 /* Services */
 .services_head {
-    box-sizing: border-box;
     font-size: 1rem;
     background-image: url('/docapp/stf/img/service2.jpg');
     background-size:cover;
@@ -18,49 +17,23 @@
     background-color: var(--t_black);
     text-align: center;
     color: var(--white);
-    margin: 1rem auto;
-    padding: 2rem 1rem;
+    margin: 1rem auto; margin-top: 0;
+    padding: 2rem;
     width: 100%;
     height: fit-content;
     
 }.services_head p {font-size: 2rem; font-weight: bolder; margin: 0.5rem auto;}
 .services_head p:nth-child(2) {font-size: 0.85rem; margin-bottom: 1rem; font-weight: normal;}
 
-/* .s_services {
-    box-sizing: border-box;
-    width: 100%;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    padding: 0.5rem 1rem;
-}.s_services div {
-    box-sizing: border-box;
-    background-image: url('/docapp/stf/img/service2.jpg');
-    background-size:contain;
-    font-size: 0.8rem;
-    word-wrap: break-word;
-    text-align:center;
-    height: 6rem;
-    width: 7rem;
-    background-color: var(--grey);
-    border-radius:1rem;
-    margin: 0.3rem 0.8rem;
-}.s_services div > p {
-    margin: 0;
-    padding: 0.05rem;
-} */
 
 /* Services body section */
 .services_body {
     position: relative;
-    box-sizing: border-box;
     display: block;
     margin: 1rem auto;
     width: 100%;
 }.services_body div {
     clear: both;
-    box-sizing: border-box;
     text-align:left;
     height: fit-content;
     min-height: 8rem;
@@ -68,32 +41,32 @@
     box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
     margin: 2rem auto;
     height: fit-content;
-    padding-bottom: 0.5rem;
-    position: relative;
-}
+    padding-bottom: 2.4rem;
+    /* position: relative; */
+}.services_body div:hover {box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2);}
 .services_body div img {
-    display: block;
-    box-sizing: border-box;
-    width: 100%;
+    display: inline-block;
+    width: 3rem;
     height: auto;
-    min-height: 10rem;
-    background-color: var(--t_black);
+    vertical-align: middle;
+    margin-left: 1rem;
+}
+.services_body div p:nth-child(2) {
+    font-size: 1.3rem; 
+    color: var(--black);
+    font-weight: bolder; 
+    display: inline-block;
+    padding: 0.3rem 1rem;
 }
 .services_body div p {
+    clear: both;
     margin: 0.5rem 0;
     padding: 0 1rem;
     font-size: 0.9rem;
 }
-.services_body div p:nth-child(2) {
-    font-size: 1.2rem; 
-    color: var(--white);
-    font-weight: bolder; 
-    top: 1rem;
-    position: absolute;
-}
+
 
 .services_body a p {
-    box-sizing: border-box;
     padding: 0.2rem 0.5rem; 
     background-color: var(--orange); 
     margin: 0;
@@ -101,11 +74,39 @@
     border-radius: 1rem;
     font-weight: normal;
 }.services_body div a { 
-    box-sizing: border-box;
     position: relative;
-    display:inline;
-    margin-bottom: 0.5rem; margin-right: 0.5rem;
+    display:none;
+    margin-bottom: 0.5rem; margin-right: 0.5rem; margin-top: 0.8rem;
     font-size: 0.9rem;
     color: var(--white);
     float: right;
+}
+
+
+/* @ 500 */
+@media (min-width: 500px){
+    
+}
+
+/* @ 768 */
+@media (min-width: 768px){
+    
+}
+
+
+
+/* FOR PC */
+/* @ 990px */
+@media (min-width: 990px){
+    
+}
+
+/* @ 1200 */
+@media (min-width: 1200px){
+    
+}
+
+/* @ 1400 */
+@media (min-width: 1400px){
+    
 }

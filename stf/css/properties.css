@@ -8,28 +8,36 @@
 
 /* Properties */
 #properties {display: block; box-sizing: border-box; padding: 0 0.5rem; width: 100%;}
-#properties > p {
-    float: left;
-    text-align: justify;
-    font-size: 1.5rem;
+.property_head {
+    width: 100%;
+    height: fit-content;
+    margin: 2rem 0; margin-top: 0;
+    padding: 1.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: var(--t_black);
+    background-image: url('/docapp/stf/img/lsp.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-blend-mode:color;
+}
+.property_head > p {
+    text-align: center;
+    font-size: 1.8rem;
     font-weight: bolder;
-    color: var(--blue);
+    color: var(--white);
     margin: 1rem auto 0 auto;
     padding-left: 1rem;
 }
 #search {
-    margin: 0.8rem 0.3rem;
+    margin: 0.8rem auto;
     margin-bottom: 1rem;
-    width: 65%;
-    height: 2.1rem;
+    width: 85%;
+    height: fit-content;
     position: relative;
-    display: inline-block;
-    float: right;
-}#search .property_search{background-color: var(--t_blue);}
+    display: block;   
+}#search .property_search{box-shadow: 0 0rem 0.1rem rgba(0, 0, 0, 0.5); height: 2.5rem;}
 
 #properties .properties {
     clear: both;
-    box-sizing: border-box;
     margin: 0.5rem auto;
     display: flex;
     flex-wrap: wrap;
@@ -41,7 +49,6 @@
 }
 .properties .l_property {
     clear: both;
-    box-sizing: border-box;
     background-color: var(--white);
     margin: 0.5rem 0.2rem;
     padding: 0.7rem 0.5rem;
@@ -102,4 +109,34 @@
     padding: 0;
     list-style-position:outside;
     margin-left: 1rem;
+}
+
+
+
+/* @ 500 */
+@media (min-width: 500px){
+    
+}
+
+/* @ 768 */
+@media (min-width: 768px){
+    
+}
+
+
+
+/* FOR PC */
+/* @ 990px */
+@media (min-width: 990px){
+    
+}
+
+/* @ 1200 */
+@media (min-width: 1200px){
+    
+}
+
+/* @ 1400 */
+@media (min-width: 1400px){
+    
 }

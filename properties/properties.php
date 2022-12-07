@@ -9,13 +9,17 @@
     <body>
     <?php include '../ext/head.php';?>
     
-        <!-- Properties Page -->
-        <div id="properties">
+        <section class="property_head">
             <p>Properties</p>
 
-        <div id="search">
-            <?php include '../ext/search.php';?>
-        </div>  
+            <div id="search">
+                <?php include '../ext/search.php';?>
+            </div>  
+        </section>
+        <!-- Properties Page -->
+        <div id="properties">
+            
+            
             
         <div class="properties">
             <div class="l_property">

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <meta charset="utf-8">
+    <meta name="viewport" content='width=device-width', initial-scale=1>
+    <title>about_us</title>
+    <link rel="stylesheet" href="/docapp/stf/css/home.css">
+    <link rel="stylesheet" href="/docapp/stf/css/account.css">
+<body>
+<?php include "../ext/head.php" ?>
+    <div id="sign_up">
+        <h5>Create new account</h5>
+        <form method="post" action="">
+            <div class="reference_pass">
+                <p>Email address: <input type="email"></p>
+                <p>Phone number: <input type="number"></p>
+            </div>
+            
+            <div class="log_pass">
+            <p>Confirm email address: <input type="email"></p>
+            <p>Password: <input type="password" maxlength="30" required/></p>
+            <p>Confirm password: <input type="password" maxlength="30" required/></p>
+            </div>
+            
+            <button name="submit">Sign up</button>
+            <input type="hidden" name="next" value=""/>
+        </form>
+        <p class="note">Already have an account <a href="login.php">Login</a></p>
+    </div>
+
+
+<?php include "../ext/base.php" ?>
+</body>
+
+</html>

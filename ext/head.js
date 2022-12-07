@@ -1,4 +1,4 @@
-import { showToggle, hide_items } from "../stf/js/docFunctions.js";
+import {showToggle, hide_items, changeAttribute} from "../stf/js/docFunctions.js";
 
 const arrowDown = document.querySelectorAll(".arrow_down");
 const sProperty = document.querySelector('.sub_property');
@@ -10,12 +10,25 @@ arrowDown[1].addEventListener('click', function(){showToggle(sService)})
 
 const menuNav = document.querySelector('.menu_nav');
 const menu = document.querySelector('.menu');
-const menuNavB = document.querySelector('.menu_nav_b');
 
 // NavMenu Dropdowns
 menu.addEventListener('click', function(){
     showToggle(menuNav, "inline-grid");
     hide_items(sProperty);
     hide_items(sService);
-    showToggle(menuNavB, "block")
+    plusMinusIcon.forEach(icon =>{
+        icon.setAttribute("src", "/docapp/stf/img/plus.svg")})
+})
+
+const plusMinusIcon = document.querySelectorAll(".menu_nav img");
+
+// Icons value changing
+plusMinusIcon.forEach(icon => {
+    icon.addEventListener('click', ()=>{
+    changeAttribute(icon, "src", "/docapp/stf/img/plus.svg", "/docapp/stf/img/minus.svg")
+})
+});
+
+menu.addEventListener('click', ()=>{
+    changeAttribute(menu, "src", "/docapp/stf/img/menu.svg", "/docapp/stf/img/cancelIcon.svg")
 })

@@ -6,7 +6,6 @@
     
     <p id="menu">
         <img class="menu" src="/docapp/stf/img/menu.svg" alt="menu icon">
-        <div class="menu_nav_b"></div>
         <div class="menu_nav">
             <p>
                 <span class="properties">
@@ -35,8 +34,8 @@
             <p><a class="contact" href="/docapp/contact/contact.php">Contact</a></p>
         
             <span class="account">
-                <span class="sign_up"><p>Sign Up</p></span>
-                <span class="login"><p>Login</p></span>
+                <span class="sign_up"><a href="/docapp/user/sign_up.php"><p>Sign Up</p></a></span>
+                <span class="login"><a href="/docapp/user/login.php"><p>Login</p></a></span>
             </span>
         </div>
     </p>

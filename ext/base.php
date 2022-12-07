@@ -39,6 +39,7 @@
 	                <p class="telephone"><span><img class="tel" src="/docapp/stf/img/tel.svg" alt="Logo"></span> 08081904865, 090100084002</p>
 	                <p><span><img class="address" src="/docapp/stf/img/address.svg" alt="Logo"></span> 26, Mabinuori Street, Shangisha, Ketu, Lagos</p>
                 </div>
+                
             </div>
 
             <div id="copy">

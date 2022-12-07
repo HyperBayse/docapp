@@ -1,13 +1,14 @@
 :root{
     --blue: rgb(49, 131, 255);
     --l_blue: rgba(211, 235, 255, 0.781);
-    --t_blue: rgba(184, 223, 255, 0.247);
+    --t_blue: #a0d4ff1c;
     --black: #000000;
     --white: #ffffff;
     --grey: #b1b1b1; 
     --t_black: rgba(0, 0, 0, 0.664);
     --orange: rgb(255, 153, 0);
     --transparent: rgba(255, 153, 0, 0);
+    --cream: rgba(255, 254, 214, 0.233);
 }
 * {box-sizing: border-box;}
 
@@ -15,7 +16,7 @@
 /* width: 576px; */
 html {
     box-sizing: border-box;
-    width: 576px;
+    width: 500px;
     margin: auto;
     font-size: 1.2em;
 }
@@ -59,27 +60,12 @@ body {
     position: absolute;
     display: none;
     margin: 0;
-    padding: 0.5rem;
+    padding: 0.5rem; padding-bottom: 2rem;
     padding-left: 0.7rem;
     padding-top: 1rem;
     width: fit-content;
     min-width: 50%;
     height: fit-content;
-    background-color: var(--white);
-    z-index: 3;
-    right: 0;
-}.menu_nav_b {
-    font-size: 1rem;
-    font-weight: 450;
-    position: absolute;
-    display: none;
-    margin: 0;
-    padding: 0.5rem;
-    padding-left: 0.7rem;
-    padding-top: 1rem;
-    width: fit-content;
-    min-width: 50%;
-    height: 30rem;
     background-color: var(--white);
     z-index: 3;
     right: 0;
@@ -100,6 +86,10 @@ body {
     display: block;
     padding: 0.6rem 0;
     color: var(--black);
+}.sub_property a:hover, .sub_service a:hover {
+    background-color: var(--l_blue);
+    cursor: pointer;
+    color: var(--orange);
 }
 
 .account {
@@ -111,13 +101,32 @@ body {
     color: var(--white);
     border-radius: 0.3rem;
     padding: 0.1rem 0;  
-}
+}.login a {color: var(--white);}
 
-.arrow_down {width: 0.9rem; height: auto; margin:0; margin-left: 0.2rem;}
+.arrow_down {
+    width: 0.9rem; 
+    height: 0.9rem; 
+    margin:0; margin-left: 0.2rem; 
+    vertical-align: middle; 
+    background-color: var(--transparent);}
 .arrow_down:hover{cursor:pointer;}
 
-/* @ 576 */
-@media (min-width: 576px){
+/* Miscelleneaus */
+input[type="submit"] {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    background-color: var(--blue);
+    color: var(--white);
+    margin: 0.5rem auto;
+    border-style: none;
+    border-radius: 0.2rem;
+    padding: 0.7rem 0.5rem;
+}
+
+/* @ 500 */
+@media (min-width: 500px){
     
 }
 
@@ -129,78 +138,100 @@ body {
 
 
 /* FOR PC */
-/* @ 992px */
-@media (min-width: 992px){
+/* @ 990px */
+@media (min-width: 990px){
     html {
-        width: 992px;
+        width: 990px;
         margin: auto;
         font-size: 1em;
         box-sizing: border-box;
     }
-    body {
-        box-sizing: border-box;
-        font-size: 1em;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }a {text-decoration: none; color: var(--blue);}
+
     /* Header Navigation Links */
     #header {
-        box-sizing: border-box;
         width: 100%;
         height: fit-content;
-        padding: 0.8rem 1rem;
+        padding: 0.5rem 0.7rem; padding-bottom: 0.2rem;
         margin: 0 auto;
         background-color: var(--white);
         display: block;
         color: var(--black);
         box-shadow: 0 0.05rem 0.3rem var(--black);
-    }#header .home{
-        display: inline-block; float: left;
-    }.home img {width: 3rem; height: auto; position: relative; margin: 0;}
-    #header p {display: inline-block; padding: 0.2rem 0.2rem; margin: 0.2rem;}
-    
-    #menu {    }
+    }#header .home{display: inline; padding: 0 1rem 0 0.7rem;}
+    .home img {width: 4.5rem; padding-bottom: 0.2rem; height: auto; position: relative; margin: 0; vertical-align: middle;}
+    #header > p {display: inline-block; padding: 0.1rem 0.4rem; margin: 0.2rem;}
 
-    #menu img {width: 1.1rem; height: auto; margin: 0;}
+    #menu{
+        margin: 0;
+        display: inline-block;
+    }
+    .menu {
+        display: none;
+        width: auto; 
+        height: 1.4rem; 
+        margin: 0;  margin-top: 0.4rem;
+        float: right; 
+        position: relative;
+        z-index: 4;
+    }
     .menu_nav {
-        position:relative;
+        font-size: 1.1rem;
+        font-weight: 450;
+        position: relative;
         display: inline;
         margin: 0;
-        padding: 0.3rem;
-        padding-top: 0.5rem;
-        width: fit-content;
+        padding: 0.7rem;
+        padding-left: 0.7rem;
+        width: 100%;
+        height: fit-content;
         background-color: var(--white);
-    }.menu {
-        display: none;
-        position:relative;
+        z-index: 3;
     }
-    
+    .menu_nav p {
+        clear: both;
+        margin: 0 0.5rem; 
+        display: inline-block;
+        height: fit-content;
+    }
+
     .properties .sub_property, .services .sub_service {
-        margin: 0.2rem 0 0 0;
+        margin: 0.3rem 0 0 0;
+        font-size: 0.9rem;
         position: absolute;
-        color: var(--black);
-        background-color: var(--white);
         display: none;
+        background-color: var(--white);
+        padding: 0.7rem 0;
+        width: fit-content;
+        min-width: 8rem;
     }.sub_property a, .sub_service a {
         display: block;
-        padding: 0.4rem 0.7rem;
+        padding: 0.6rem 0.7rem;
+        color: var(--black);
+    }.sub_property a:hover, .sub_service a:hover {
+        background-color: var(--l_blue);
+        cursor: pointer;
+        color: var(--orange);
     }
-    
+
     .account {
-        float: right;
         position: relative;
+        padding: 0.5rem;
         margin-right: inherit;
         display: inline;
+        float: right;
     }.account .login{
         background-color: var(--blue);
         color: var(--white);
         border-radius: 0.3rem;
         padding: 0.1rem 0;  
-    }
-    
-    .arrow_down {width: 0.9rem; height: auto;}
+    }.login a {color: var(--white);}
+
+    .arrow_down {
+        width: 0.9rem; 
+        height: 0.9rem; 
+        margin:0; margin-left: 0.2rem; 
+        vertical-align: middle; 
+        background-color: var(--transparent);}
     .arrow_down:hover{cursor:pointer;}
 }
 

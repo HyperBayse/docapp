@@ -5,7 +5,7 @@
         <meta name="viewport" content='width=device-width' initial-scale=1.0>
         <title>contact</title>
         <link rel="stylesheet" type="text/css" href="/docapp/stf/css/contact.css">
-        <script type="module" src="/docapp/stf/js/contact.js" defer></script>
+        <script type="module" src="../stf/js/contact.js" defer></script>
     </head>
     <body>
     <?php include '/xampp/htdocs/docapp/ext/head.php';?>
@@ -130,7 +130,7 @@
       <br><br>
       <!-- Other Contacts-->
       <div class="other_contacts">
-        <h5>CLICK FOR QUICK ACTION</h5>
+        <h5>Get in Touch</h5>
         <p><img src="../stf/img/mail.svg">info@dapookeowoandco.com</p><br>
         <p><img src="../stf/img/tel.svg">08081904865, 090100084002</p><br>
         <p><img src="../stf/img/twitter.svg">dapookeowoandco</p><br>

@@ -47,7 +47,7 @@
         <div id="new_listings">
             <div class="nl_head">
                 <p>New Listings...</p>
-                <p>Checkout for the recently added properties</p>
+                <p><a href="properties/properties.php">See other properties</a></p>
             </div>
             
             
@@ -159,6 +159,7 @@
             <div class="blog">
                 <p>Blog</p>
                 <embed src="https://www.forbes.com/advisor/mortgages/real-estate/housing-market-predictions/">
+                
             </div>
             
         </div>
