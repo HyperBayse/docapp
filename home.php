@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width" initial-scale=1.0>
         <title>doc_home</title>
         <link rel="stylesheet" type="text/css" href="stf/css/home.css">
+        <link rel="icon" type="image/x-icon" href="/docapp//stf/img/doc_logo.svg">
         <script type="module" src="stf/js/home.js" defer></script>
     </head>
     <body>
@@ -24,13 +25,13 @@
                     <li>Integrity</li>
                     <li>Honesty</li>
                     <li>Professionalism</li>
-                    <li>Excellent Customer Delivery</li>
+                    <li>Excellent Customer Service Delivery</li>
                 </ul>
                 </div>
 
                 <div class="vision">
                     <h4>Our Vision</h4>
-                    <p>A provider of real estate solution  that ensures clients&#39;  achieve maximum return on their investments.</p>
+                    <p>A provider of real estate solution  that ensures client&#39;s  achieve maximum return on their investments.</p>
                 </div>
 
                 <div class="mission">
@@ -49,7 +50,6 @@
                 <p>New Listings...</p>
                 <p><a href="properties/properties.php">See other properties</a></p>
             </div>
-            
             
             <div class="new_listings">
                 <div class="new_list">
@@ -145,9 +145,12 @@
         <!-- Explore more -->
         <div class="explore">
             <p>Let's get it done for you</p>
-            <p>Value your property | Have a property to develop | Management ...</p>
-            <a href="services/services.php"><p>Start exploring</p></a>
+            <p>Asset Valuation | Property Management | Real Estate Brokerage ...</p>
+            <a href="services/services.php" target="_top"><p>Start exploring</p></a>
         </div>
+
+
+        <br>
         <!-- Property market and news division -->
         <div id="property_market">
             <div class="p_market">
@@ -166,6 +169,7 @@
         
         <hr>
 
+        <br>
         <!-- Ongoing project -->
         <div id="project">
             <p>Ongoing Project</p>
@@ -182,9 +186,10 @@
             </div>
         </div>
 
-        <!-- We DOC -->
+        <br>
+        <!-- About Us -->
         <div id="we_doc">
-            <p>We DAPO OKEOWO & CO</p>
+            <p>About Us</p>
             <div class="we_doc">
                 <div class="image">
                     <img src="stf/img/we_doc.jpg" alt="image">

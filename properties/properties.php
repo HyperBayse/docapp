@@ -5,6 +5,7 @@
         <meta name="viewport" content='width=device-width' initial-scale=1.0>
         <title>properties</title>
         <link rel="stylesheet" href="../stf/css/properties.css">
+        <link rel="icon" type="image/x-icon" href="/docapp//stf/img/doc_logo.svg">
     </head>
     <body>
     <?php include '../ext/head.php';?>
@@ -16,11 +17,9 @@
                 <?php include '../ext/search.php';?>
             </div>  
         </section>
-        <!-- Properties Page -->
-        <div id="properties">
-            
-            
-            
+    <!-- Properties Page -->
+    <div id="properties">
+             
         <div class="properties">
             <div class="l_property">
                 <img src="../properties/prop/lpce1.jpeg" alt="List Image">

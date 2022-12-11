@@ -3,8 +3,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content='width=device-width', initial-scale=1>
     <title>about_us</title>
-    <link rel="stylesheet" href="/docapp/stf/css/home.css">
     <link rel="stylesheet" href="/docapp/stf/css/account.css">
+    <link rel="icon" type="image/x-icon" href="/docapp//stf/img/doc_logo.svg">
 <body>
 <?php include "../ext/head.php" ?>
     <div id="sign_up">

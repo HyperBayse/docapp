@@ -5,6 +5,7 @@
         <meta name="viewport" content='width=device-width' initial-scale=1.0>
         <title>contact</title>
         <link rel="stylesheet" type="text/css" href="/docapp/stf/css/contact.css">
+        <link rel="icon" type="image/x-icon" href="/docapp//stf/img/doc_logo.svg">
         <script type="module" src="../stf/js/contact.js" defer></script>
     </head>
     <body>
@@ -70,10 +71,10 @@
                   </select>
               </div>
                 
-                <br>
-                <div class="submit_btn">
-                  <input type="submit" value="Submit">
-                </div>
+              <br>
+              <div class="submit_btn">
+                <input type="submit" value="Submit">
+              </div>
                 
             </form>
           </div>
@@ -128,13 +129,15 @@
       
 
       <br><br>
+
+      <hr>
       <!-- Other Contacts-->
       <div class="other_contacts">
         <h5>Get in Touch</h5>
-        <p><img src="../stf/img/mail.svg">info@dapookeowoandco.com</p><br>
-        <p><img src="../stf/img/tel.svg">08081904865, 090100084002</p><br>
+        <p><img src="../stf/img/mail.svg"><a href="mailto:info@dapookeowoandcom.com">info@dapookeowoandco.com</a></p><br>
+        <p><img src="../stf/img/tel.svg"><a href="tel:08081904865">08081904865,</a> <a href="tel:090100084002">090100084002</a></p><br>
         <p><img src="../stf/img/twitter.svg">dapookeowoandco</p><br>
-        <p><img src="../stf/img/instagram.svg">@dapookeowoandco</p>
+        <p><img src="../stf/img/instagram.svg"> <a href="https://www.instagram.com/dapo_okeowoandco/?hl=en">@dapookeowoandco</a></p>
       </div>
 
 

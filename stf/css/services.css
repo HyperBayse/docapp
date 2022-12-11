@@ -42,8 +42,7 @@
     margin: 2rem auto;
     height: fit-content;
     padding-bottom: 2.4rem;
-    /* position: relative; */
-}.services_body div:hover {box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2);}
+}.services_body div:hover {box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2); background-color: var(--cream);}
 .services_body div img {
     display: inline-block;
     width: 3rem;
@@ -98,7 +97,42 @@
 /* FOR PC */
 /* @ 990px */
 @media (min-width: 990px){
-    
+    .services_body {
+        position: relative;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        margin: 1rem auto;
+        width: 100%;
+    }.services_body div {
+        clear: both;
+        text-align:left;
+        height: 20rem;
+        min-height: 8rem;
+        width: 90%;
+        box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+        margin: 2rem auto;
+        padding-bottom: 2.4rem;
+    }.services_body div:hover {box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2); background-color: var(--cream);}
+    .services_body div img {
+        display: inline-block;
+        width: 3rem;
+        height: auto;
+        vertical-align: middle;
+        margin-left: 1rem;
+    }
+    .services_body div p:nth-child(2) {
+        font-size: 1.3rem; 
+        color: var(--black);
+        font-weight: bolder; 
+        display: inline-block;
+        padding: 0.3rem 1rem;
+    }
+    .services_body div p {
+        clear: both;
+        margin: 0.5rem 0;
+        padding: 0 1rem;
+        font-size: 0.9rem;
+    }
 }
 
 /* @ 1200 */

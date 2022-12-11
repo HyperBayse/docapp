@@ -10,11 +10,11 @@
                 <!-- Links -->
                 <div class="links">
                     <h4>Quick Links</h4>
-                    <a>Home</a>
-                    <a>Properties</a>
-                    <a>Services</a>
-                    <a>About Us</a>
-                    <a>Contact</a> 
+                    <a href="">Home</a>
+                    <a href="">Properties</a>
+                    <a href="">Services</a>
+                    <a href="">About Us</a>
+                    <a href="">Contact</a> 
                 </div>
 
                 <div class="b_properties">
@@ -26,17 +26,17 @@
                 <div class="b_services">
                     <h4>Services</h4> 
                         <a href="">Letting, Sales & Purchase</a>
-                        <a>Property Management</a>
-                        <a>Property Valuation</a>
-                        <a>Real Estate Consultancy</a>
-                        <a>Facilities Management</a>
-                        <a>Plant & Machinery Valuation</a>
+                        <a href="">Property Management</a>
+                        <a href="">Assets Valuation</a>
+                        <a href="">Real Estate Consultancy</a>
+                        <a href="">Facilities Management</a>
+                        <a href="">Real Estate Brokerage</a>
                 </div>
 
                 <div class="contact">
                     <h4>Contacts</h4>
-                    <p><span><img class="mail" src="/docapp/stf/img/mail.svg" alt="Logo"></span> info@dapookeowoandco.com</p>
-	                <p class="telephone"><span><img class="tel" src="/docapp/stf/img/tel.svg" alt="Logo"></span> 08081904865, 090100084002</p>
+                    <p><span><a href="mailto:info@dapookeowoandco"><img class="mail" src="/docapp/stf/img/mail.svg" alt="Logo"></span> info@dapookeowoandco.com</a></p>
+	                <p class="telephone"><span><img class="tel" src="/docapp/stf/img/tel.svg" alt="Logo"></span> <a href="tel:08081904865">08081904865</a>, <a href="tel:090100084002">090100084002</a></p>
 	                <p><span><img class="address" src="/docapp/stf/img/address.svg" alt="Logo"></span> 26, Mabinuori Street, Shangisha, Ketu, Lagos</p>
                 </div>
                 

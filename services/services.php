@@ -5,6 +5,7 @@
         <meta name="viewport" content='width=device-width' initial-scale=1.0>
         <title>services</title>
         <link rel="stylesheet" href="/docapp/stf/css/services.css">
+        <link rel="icon" type="image/x-icon" href="/docapp//stf/img/doc_logo.svg">
     </head>
     <body>
     <?php include '/xampp/htdocs/docapp/ext/head.php';?>

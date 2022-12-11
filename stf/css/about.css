@@ -48,8 +48,9 @@
     display: grid;
     background-color: var(--white);
     box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2);
-    margin: 0.7rem;
+    margin: 0.7rem auto;
     padding: 0.5rem;
+    width: 85%;
 }
 .key_about h4 {
     padding: 0 0.8rem;
@@ -69,16 +70,20 @@
 /* Key personel */
 #personnel {
     width: 100%;
-    margin: 0 auto; margin-top: 2rem;
-    padding: 1.5rem 2.5rem;
+    margin: 0 auto; margin-top: 0.5rem;
+    padding: 1.5rem 3rem; padding-top: 0.3rem;
     font-size: 0.9rem;
     position: relative;
     background-color: var(--cream);
-}#personnel  > p {
-    font-size: 1.5rem;
+}.personnel_para {
+    font-size: 1.6rem;
     font-weight: bolder;
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 0.8rem;
+    width: 85%;
 }#personnel > div {
     margin:1rem auto; margin-top: 0;
     padding: 1rem 0;
@@ -97,13 +102,13 @@
     font-size: 1.3rem;
     background-color: var(--black);
     padding: 0.3em; padding-top: 0.5rem;
-    width: 83.5%;
+    width: 100%;
     left: 0; right: 0; 
     color: var(--blue);
-    margin:auto; margin-top: -4rem;
-    position: absolute;
+    margin:auto; margin-top: -1rem; margin-bottom: 0;
+    position: relative;
 }#personnel h3 {
-    margin-top: -1.9rem;
+    margin-top: -0.1rem;
     color: var(--white);
     font-size: 1.1rem;
     padding-top: 0.5rem;
@@ -129,7 +134,75 @@
 /* FOR PC */
 /* @ 990px */
 @media (min-width: 990px){
-    
+    .key_about {
+        width: 100%;
+        padding: 1rem;
+        display: grid;
+        padding: 0 3rem;
+        margin: 0 auto;
+        grid-template-columns: 33% 33% 33%;
+        gap: 0rem;
+        justify-content: center;
+    }.key_about div {
+        background-color: var(--white);
+        box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2);
+        margin: 0.7rem;
+        width: 90%;
+        line-height: 1.5rem;
+        padding: 0.5rem 0.4rem;
+    }
+
+    #personnel {
+        width: 100%;
+        margin: 0 auto; margin-top: 0.5rem;
+        padding: 1.5rem 2.5rem; padding-top: 0.2rem;
+        font-size: 0.9rem;
+        position: relative;
+        background-color: var(--cream);
+        display: grid;
+        grid-template-columns: 40% 40%;
+    }.personnel_para {
+        font-size: 2rem;
+        font-weight: bolder;
+        margin: 0 auto;
+        text-align: center;
+        background-color: var(--blue);
+        color: var(--white);
+        padding: 1rem;
+        width: 90%;
+    }#personnel > div {
+        margin:1rem 2rem; margin-top: 0;
+        padding: 1rem 0;
+    }
+    #personnel img {
+        width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+        margin: 0;
+        background-image: url("/docapp/stf/img/about_label.jpg");
+        background-color: var(--t_black);
+        background-blend-mode:overlay;
+    }#personnel h4, #personnel h3 {
+        text-align: center;
+        padding: 0.5rem;
+        font-size: 1.3rem;
+        background-color: var(--black);
+        padding: 0.3em; padding-top: 0.5rem;
+        width: 100%;
+        left: 0; right: 0; 
+        color: var(--blue);
+        margin:auto; margin-top: -1rem;
+        position: relative;
+    }#personnel h3 {
+        margin-top: -0.1rem;
+        color: var(--white);
+        font-size: 1.1rem;
+        padding-top: 0.5rem;
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+    #personnel p {
+        margin: 0.5rem auto;
+    }
 }
 
 /* @ 1200 */

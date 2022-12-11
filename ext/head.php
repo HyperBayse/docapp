@@ -22,11 +22,11 @@
                     <a class="service" href="/docapp/services/services.php">Services</a> <img class="arrow_down" src="/docapp/stf/img/plus.svg" alt="arrow down"> 
                         <span class="sub_service">
                             <a href="">Letting, Sales & Purchase</a>
-                            <a>Property Management</a>
-                            <a>Property Valuation</a>
-                            <a>Real Estate Consultancy</a>
-                            <a>Facilities Management</a>
-                            <a>Plant & Machinery Valuation</a>
+                            <a href="">Property Management</a>
+                            <a href="">Assets Valuation</a>
+                            <a href="">Real Estate Consultancy</a>
+                            <a href="">Facilities Management</a>
+                            <a href="">Real Estate Brokerage</a>
                         </span>
                 </span> 
             </p>
