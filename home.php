@@ -66,7 +66,7 @@
                             <li>Address: </li>
                         </ul>
                     </p>
-                    <input type="button" value="View Details">
+                    <a href="properties/property_info.php"><input type="button" value="View Details"></a>
                 </div>
 
                 <div class="new_list">
@@ -140,6 +140,13 @@
                 </div>
               
             </div>
+
+            <!-- The Icon for changing the current list preview -->
+            <div class="change_listings">
+                <span class="left"><img src="stf/img/left_arrow.svg"></span>
+                <span class="right"><img src="stf/img/right_arrow.svg"></span>
+            </div>
+            
         </div>
 
         <!-- Explore more -->
@@ -155,13 +162,13 @@
         <div id="property_market">
             <div class="p_market">
                 <p>Property Market</p>
-                <embed src="https://www.pwc.com/us/en/industries/financial-services/asset-wealth-management/real-estate/emerging-trends-in-real-estate.html">
+                <!-- <embed src="https://www.pwc.com/us/en/industries/financial-services/asset-wealth-management/real-estate/emerging-trends-in-real-estate.html"> -->
                 
             </div>
             
             <div class="blog">
                 <p>Blog</p>
-                <embed src="https://www.forbes.com/advisor/mortgages/real-estate/housing-market-predictions/">
+                <!-- <embed src="https://www.forbes.com/advisor/mortgages/real-estate/housing-market-predictions/"> -->
                 
             </div>
             

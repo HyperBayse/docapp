@@ -20,7 +20,7 @@
         <div class="services_body">
             <div class="pv">
                 <img src="/docapp/stf/img/pv.svg" alt="PV">
-                <p>Property Valuation</p>
+                <p>Assets Valuation</p>
                 <p>Our Valuation services are carried out with utmost professionalism in accordance with the standard and ethics of the Nigerian Institution of Estate Surveyors and Valuers of which we are a prominent and accredited member. Whilst we understand the firm is quite young and having executed few valuation exercises after registering the company, we have no doubt that we will continue to grow due to our interest in this area of the profession and our interest in gathering information, market data and advancement in the use of technology to perform our task to ensure a speedy delivery of report.</p>
 
                 <a href=""><p>Learn more</p></a>
@@ -52,7 +52,7 @@
             </div>
             <div class="pmv">
                 <img src="/docapp/stf/img/pmv.svg" alt="PMV">
-                <p>Plant & Machinery Valuation</p>
+                <p>Real Estate Brokerage</p>
                 <p>Write-ups here</p>
                 <a href=""><p>Learn more</p></a>
             </div>

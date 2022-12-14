@@ -22,20 +22,34 @@
              
         <div class="properties">
             <div class="l_property">
-                <img src="../properties/prop/lpce1.jpeg" alt="List Image">
+                <img class="active" src="../properties/prop/lpce1.jpeg" alt="List Image">
                 <p class="descr">Newly Built 5 Bedroom Detached House</p>
                 <p class="tag">For Sale</p>
                 <p class="price">#90,000,000</p>
-                <p class="info infos">
-                    <ul>
-                        <li>xNo Bedroom</li>
-                        <li>xNo Bath</li>
-                        <li>xNo Land Size</li>
-                        <li>Others: </li>
-                        <li>Address: </li>
-                    </ul>
-                </p>
-                <input type="button" value="View Details">
+                <hr>
+                <div class="info">
+                    <div class="bed">
+                        <img src="bed.svg">
+                        <p>4</p>
+                    </div>
+                    <div class="bath">
+                        <img src="bath.svg">
+                        <p>3</p>
+                    </div>
+
+                    <!-- If the property is land, land size should be visible -->
+                    <!-- <div class="size">
+                        <img src="size.svg">
+                        <p>1450 x 1670sqm</p>
+                    </div> -->
+
+                    <div class="address">
+                        <img src="address.svg">
+                        <p>state</p>
+                    </div>
+                </div>
+                <hr>
+                <a href="property_info.php"><input type="button" value="View Details"></a>
             </div>
 
             <div class="l_property">
@@ -43,15 +57,29 @@
                 <p class="descr">Bridgegate Estate Lekki, Nigeria</p>
                 <p class="tag">For Sale</p>
                 <p class="price">#55,000,000</p>
-                <p class="info infos">
-                    <ul>
-                        <li>xNo Bedroom</li>
-                        <li>xNo Bath</li>
-                        <li>xNo Land Size</li>
-                        <li>Others: </li>
-                        <li>Address: </li>
-                    </ul>
-                </p>
+                <hr>
+                <div class="info">
+                    <div class="bed">
+                        <img src="bed.svg">
+                        <p>4</p>
+                    </div>
+                    <div class="bath">
+                        <img src="bath.svg">
+                        <p>3</p>
+                    </div>
+
+                    <!-- If the property is land, land size should be visible -->
+                    <!-- <div class="size">
+                        <img src="size.svg">
+                        <p>1450 x 1670sqm</p>
+                    </div> -->
+
+                    <div class="address">
+                        <img src="address.svg">
+                        <p>state</p>
+                    </div>
+                </div>
+                <hr>
                 <input type="button" value="View Details">
             </div>
 

@@ -59,7 +59,15 @@ button {
 
 /* @ 768 */
 @media (min-width: 768px){
-    
+    #sign_up, #login {
+        width: 70%;
+        height: fit-content;
+        padding: 1rem 2rem;
+        margin: 10% auto;
+        box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.2);
+        font-size: 1.2rem;
+        background-color: var(--white);
+    } 
 }
 
 

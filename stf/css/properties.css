@@ -30,27 +30,18 @@
 #search {
     margin: 0.8rem auto;
     margin-bottom: 0.7rem;
-    width: 65%;
+    width: 75%;
     height: fit-content;
     position: relative;
     display: block;   
 }#search .property_search{box-shadow: 0 0rem 0.1rem rgba(0, 0, 0, 0.5); height: 2.2rem;}
 
-/* #properties .properties {
+#properties .properties {
     clear: both;
     margin: 0.5rem auto;
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: 1.6rem 0rem;
-    justify-items: center;
-    height: fit-content;
-    width: 100%;
-} */
-#properties .properties {
-    clear: both;
-    margin: 0.5rem auto;
-    display: block;
-    gap: 1.6rem 0rem;
+    gap: 1.5em auto;
     justify-items: center;
     height: fit-content;
     width: 100%;
@@ -59,7 +50,7 @@
     clear: both;
     background-color: var(--white);
     margin: 0.5rem auto;
-    padding: 0.2rem 0.4rem; padding-bottom: 1.5rem;
+    padding: 0.2rem 0.4rem; padding-bottom: 0.5rem;
     height: fit-content;
     min-height: 15rem;
     font-size: 0.9rem;
@@ -73,41 +64,69 @@
 .l_property:hover {box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2);}
 
 /* each property content */
-.l_property img {
+.l_property > img {
     display: block;
     width: 100%; margin-bottom: 0.5rem;
     height: fit-content;
-    min-height: 10rem; max-height: 15rem;
+    min-height: 3rem;
     background-color: var(--t_black);
 }.l_property .tag {
     color: var(--white);
     position: absolute;
-    top: 1.4rem;
-    left: 1.1rem;
-    font-size: 1rem;
+    top: 0.8rem;
+    left: 0.7rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     background-color: var(--t_black);
-    padding: 0.3rem 0.5rem;
+    padding: 0.1rem 0.2rem;
     border-radius: 0.5rem;
 }.l_property input[type='button'] {
     background-color: var(--blue);
     border-radius: 0.4rem;
     float: right;
-    padding: 0.25rem;
+    padding: 0.25rem; margin-top: 0.3rem;
     color:var(--white);
-    font-size: 0.9rem;
-    border-style: none; margin-top: -0.5rem;
+    font-size: 0.8rem;
+    border-style: none; 
+    /* margin-top: -0.5rem; */
 }.l_property input:hover {
     background-color: var(--t_black);
     cursor: pointer;
 }.l_property .descr {
     font-weight: bolder;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }.l_property .price {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: bolder;
     margin: 0.5rem auto;
-}.l_property .info {
+}
+.info {
+    display: grid; padding: 0.4rem 0;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows:min-content;
+    align-content:center;
+    justify-content:flex-start;
+    gap: 0.3rem 0.2rem ;
+    margin: 0.8rem 0; padding: 0 1rem;
+    width: 100%;
+    /* box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.2); */
+}.info div {
+    margin: 0;
+    display: block;
+    width: 100%; height: fit-content;
+    background-color: var(--white);
+    word-wrap: normal;
+    text-align: center;
+}.info div img {
+    width: 1.2rem; height: 1.2rem;
+    margin: 0;
+}.info div p {
+    display: block;
+    color: var(--black);
+    margin: 0; margin-top: 0.1rem;
+    font-size: 0.9rem;
+}
+.l_property .info {
     font-size: 0.8rem;
     color: var(--blue);
 }.l_property ul {
@@ -128,7 +147,30 @@
 
 /* @ 768 */
 @media (min-width: 768px){
-    
+    #properties .properties {
+        clear: both;
+        margin: 0.5rem auto;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        gap: 2rem 0rem;
+        height: fit-content;
+        width: 100%;
+        min-width: 90%;
+    }
+    .properties .l_property {
+        clear: both;
+        background-color: var(--white);
+        margin: 0.5rem 0.2rem;
+        padding: 0.2rem 0.4rem;
+        height: fit-content;
+        min-height: 15rem;
+        font-size: 0.9rem;
+        width: 93%;
+        min-width: 10rem;
+        border-radius:0.3rem;
+        box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+        position: relative;
+    }
 }
 
 
@@ -140,7 +182,7 @@
         clear: both;
         margin: 0.5rem auto;
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 25% 25% 25% 25%;
         gap: 2rem 0rem;
         height: fit-content;
         width: 100%;

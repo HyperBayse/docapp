@@ -1,0 +1,193 @@
+
+#property_info {margin: 0; width: 100%;}
+#property_info .property {
+    clear: both;
+    background-color: var(--white);
+    margin: 0.5rem auto;
+    padding: 0.2rem 0.4rem; padding-bottom: 1.5rem;
+    height: fit-content;
+    min-height: 15rem;
+    font-size: 0.9rem;
+    width: 93%;
+    min-width: 10rem;
+    position: relative;
+}.property * {margin: 0.1rem;}
+
+.property p:first-child {font-weight: normal;}
+.p_image {
+    width: 100%; height: auto; min-height: 10rem;
+    padding: 0.5rem 2rem; margin: 0;
+}.p_image img {width: 100%; margin: 0;}
+
+.p_images {
+    display: flex;
+    justify-content: center;
+    margin: 0; padding: 0.3rem; margin-bottom: 0.8rem;
+    background-color: var(--t_black);
+    width: 100%; height: fit-content;
+}.p_images img {
+    width: 3rem; height: auto;
+    margin: 0 0.2rem;
+}
+.property .descr {
+    font-weight: bolder;
+    font-size: 0.9rem;
+}.property .tag {
+    margin-top: 0.3rem; margin-bottom: 0.8rem;
+    font-size: 1rem;
+    color: var(--blue);
+    list-style-type:square;
+}.property .price {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 0.5rem auto;
+}
+.property input[type='button'] {
+    background-color: var(--blue);
+    border-radius: 0.4rem;
+    float: right;
+    padding: 0.25rem;
+    color:var(--white);
+    font-size: 1rem;
+    border-style: none; margin-top: -0.5rem;
+}.property input:hover {
+    background-color: var(--t_black);
+    cursor: pointer;
+}
+.info {
+    display: block;
+    margin: 0.8rem 0; padding: 0 1rem;
+    width: 100%; height:fit-content;
+}.info div {
+    margin: 0.5rem 0;
+    width: fit-content; min-width:4rem; height: auto;
+    background-color: var(--white);
+}.info div img {
+    width: auto; height: 1rem;
+    margin: 0; margin-right: 0.5rem;
+}.info div p {
+    display: inline-block;
+    color: var(--black);
+    margin: 0; margin-top: 0.2rem;
+    font-size: 0.9rem;
+}
+.other_info {
+    clear: both;
+    display: block;
+    margin: 0; margin-top: 1rem;
+    width: 100%; min-width: 15rem;
+    height: fit-content;
+    /* min-height: 10rem; */
+}.other_info textarea {
+    margin: 0 0 1rem 0; padding: 0.3rem;
+    width: 100%; max-width: 100%;   
+}
+
+#related {
+    clear: both;
+    
+    background-color: var(--white);
+    margin: 0.5rem auto; margin-top: 1.5rem;
+    padding: 0.2rem 1rem; padding-bottom: 1.5rem;
+    height: fit-content;
+    min-height: 15rem;
+    font-size: 0.9rem;
+    width: 93%;
+    min-width: 10rem;
+    position: relative;
+}
+#related .related {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    gap: 0.5rem 1rem;
+}
+#related p:first-child {
+    margin: 0.3rem 0;
+    font-size: 1.1rem;
+    color: var(--blue);
+}
+.related img {
+    width: 100%; 
+    height: 6rem;
+    background-color: rgba(139, 247, 232, 0.288);
+}
+
+
+@media screen and (min-width: 768px) {
+    #related .related {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 33% 33% 33%;
+        gap: 0.5rem 1rem;
+    }
+    #related p:first-child {
+        margin: 0.3rem 0;
+        font-size: 1.1rem;
+        color: var(--blue);
+    }
+    .related img {
+        width: 100%; 
+        height: 6rem;
+        background-color: rgba(139, 247, 232, 0.288);
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .p_image {
+        width: 100%; height: auto; min-height: 10rem;
+        padding: 0.5rem 2rem; margin: 0; text-align: center;
+    }.p_image img {
+        width: auto; max-width: 70%;
+        height: auto; min-height: 20rem; max-height: 70vh;
+        margin: 0; 
+        margin: 0 auto;
+    }
+    
+    .p_images {
+        display: flex;
+        justify-content: center;
+        margin: 0; padding: 0.3rem; margin-bottom: 0.8rem;
+        background-color: var(--t_black);
+        width: 100%; height: fit-content;
+    }.p_images img {
+        width: 3rem; height: auto;
+        margin: 0 0.2rem;
+    }
+
+    #related .related {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 33% 33% 33%;
+        gap: 0.5rem 1rem;
+    }
+    #related p:first-child {
+        margin: 0.3rem 0;
+        font-size: 1.1rem;
+        color: var(--blue);
+    }
+    .related img {
+        width: 100%; 
+        height: 6rem;
+        background-color: rgba(139, 247, 232, 0.288);
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #related .related {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 25% 25% 25% 25%;
+        gap: 0.5rem 1rem;
+    }
+    #related p:first-child {
+        margin: 0.3rem 0;
+        font-size: 1.1rem;
+        color: var(--blue);
+    }
+    .related img {
+        width: 100%; 
+        height: 6rem;
+        background-color: rgba(139, 247, 232, 0.288);
+    }
+}
