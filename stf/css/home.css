@@ -160,10 +160,12 @@
 .change_listings {display: none;}
 .change_listings span {
     position: absolute;
-    width: 3.5rem;
+    width: 2rem;
     height: auto;
     top: 40%;
     margin: 0; padding: 0.5rem;
+    background-color: var(--t_black);
+    border-radius: 0.5rem;
 }
 .change_listings .right {
     right: 0;
@@ -315,8 +317,8 @@
 }
 
 
-/* @ 500 */
-@media (min-width: 500px){
+/* @ 410 */
+@media (min-width: 410px){
     
 }
 

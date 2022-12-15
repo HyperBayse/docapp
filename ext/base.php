@@ -45,10 +45,10 @@
             <div id="copy">
                 <p>&copy; Dapo Okeowo and Co. 2022</p>
                 <div class="social_icon">
-                    <img src="/docapp/stf/img/mail.svg">
-                    <img src="/docapp/stf/img/tel.svg">
+                    <a href="mailto:info@dapookeowoandco.com"><img src="/docapp/stf/img/mail.svg"></a>
+                    <a href="tel:08081904865"><img src="/docapp/stf/img/tel.svg"></a>
                     <img src="/docapp/stf/img/twitter.svg">
-                    <img src="/docapp/stf/img/instagram.svg">
+                    <a href="https://www.instagram.com/dapo_okeowoandco/?hl=en"><img src="/docapp/stf/img/instagram.svg"></a>
                 </div>
             </div>
      

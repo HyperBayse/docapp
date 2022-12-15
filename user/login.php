@@ -2,7 +2,7 @@
 <html lang="en-US">
     <meta charset="utf-8">
     <meta name="viewport" content='width=device-width', initial-scale=1>
-    <title>about_us</title>
+    <title>login</title>
     <link rel="stylesheet" href="/docapp/stf/css/account.css">
     <link rel="icon" type="image/x-icon" href="/docapp//stf/img/doc_logo.svg">
 <body>

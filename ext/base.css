@@ -4,7 +4,7 @@ footer {
     clear: both;
     font-size: 0.8rem;
     margin: 1.5rem 0 0 0;
-    padding-top: 2rem;
+    padding-top: 1rem;
     background-color: var(--d_grey);
     color: var(--black);
 }footer a{color: var(--white);}
@@ -75,8 +75,8 @@ footer #copy p {padding: 0.8rem;padding-bottom: 0.5rem; margin: 0;}
 }
 
 
-/* @ 500 */
-@media (min-width: 500px){
+/* @ 410 */
+@media (min-width: 410px){
     
 }
 
@@ -97,7 +97,7 @@ footer #copy p {padding: 0.8rem;padding-bottom: 0.5rem; margin: 0;}
         
     }
     #base_links div { 
-        margin-left: 2rem;  margin-right: 2rem;
+        margin-left: 1rem;  margin-right: 1rem;
         padding-bottom: 0; 
         margin-bottom: 0.7rem;
         margin-top: 1.1rem;
@@ -191,7 +191,7 @@ footer #copy p {padding: 0.8rem;padding-bottom: 0.5rem; margin: 0;}
         margin-left: 1.2rem; 
         padding-bottom: 0; 
         margin-bottom: 0.7rem;
-        margin-top: 1.1rem;
+        margin-top: 1rem;
         margin-left: 1rem;
     }footer  .doc_logo {margin-bottom: 0.4rem;} 
     footer h4 {margin: 0 0 0.2rem 0; font-size: 1rem; color: var(--blue);}

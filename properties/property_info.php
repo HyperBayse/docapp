@@ -13,8 +13,20 @@
     <div class="property">
         <p>Property at (Town)</p>
         <div class="p_image">
-            <img src="../properties/prop/bgel2.jpeg" alt="active image">
+            <div class="current">
+                <img class="c_prev" src="../properties/prop/bgel1.jpeg" alt="active image">
+                <img class="active" src="../properties/prop/bgel2.jpeg" alt="active image">
+                <img class="c_next" src="../properties/prop/bgel3.jpeg" alt="active image">
+            </div>
+            
         </div>
+
+        <!-- The Icon for changing the current list preview -->
+        <div class="change_listings">
+            <span class="left"><img src="../stf/img/left_arrow.svg"></span>
+            <span class="right"><img src="../stf/img/right_arrow.svg"></span>
+        </div>
+
         <div class="p_images">
             <img src="../properties/prop/bgel1.jpeg" alt="List Image">
             <img src="../properties/prop/bgel2.jpeg" alt="List Image">
@@ -56,6 +68,7 @@
     </div>
 </div>
 
+<br>
 <div id="related">
     <p>Related properties</p>
     <div class="related">
