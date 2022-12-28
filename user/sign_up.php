@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/docapp/stf/css/account.css">
     <link rel="icon" type="image/x-icon" href="/docapp//stf/img/doc_logo.svg">
 <body>
+
 <?php include "../ext/head.php" ?>
     <div id="sign_up">
         <h5>Create new account</h5>
